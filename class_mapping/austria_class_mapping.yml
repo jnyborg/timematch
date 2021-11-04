@@ -1,0 +1,140 @@
+meadow:
+  717: mowing meadow / pasture three and more uses
+  716: mowing meadow / pasture two uses
+  634: clover grass
+  715: permanent pasture
+  636: alternative meadow (egart, farm wille)
+  990: pasture area
+  637: forage grass
+  633: clover
+  635: alfalfa
+corn:
+  105: grain corn
+  109: silo corn
+  106: corn corn-cob-mix (ccm)
+  173: seed corn propagation
+  107: sugar corn
+barley:
+  spring:
+    111: summer barley
+  winter:
+    110: winter barley
+wheat:
+  winter:
+    138: winter wheat
+  spring:
+    137: summer wheat
+rapeseed:
+  spring:
+    302: summer rapeseed
+  winter:
+    301: winter rapeseed
+oat:
+  spring:
+    155: summer oats
+  winter:
+triticale:
+  winter:
+    116: winter triticale
+  spring:
+    157: summer triticale
+horsebeans:
+  202: horsebeans
+peas:
+  spring:
+    115: peas - grain mix
+    201: grain peas
+  winter:
+rye:
+  spring:
+    141: summer rye
+  winter:
+    142: winter rye
+sunflowers:
+  307: sunflowers
+unknown:
+  308: soybeans
+  651: sugar beet
+  145: winter dinkel (fur)
+  113: winter cereals
+  771: green broken
+  701: unique meadow
+  536: winter kummel
+  114: summer cereals
+  751: oil pumpkin
+  509: summer poppy
+  524: edible potatoes
+  519: starch potatoes
+  696: field vegetables single culture
+  679: other field forage
+  817: table apples
+  697: field vegetables processing single culture
+  118: millet
+  707: hat willow
+  310: oil (not for fiber recovery)
+  694: field vegetables multi-cultured
+  676: field vegetables cucumbers
+  119: buckwheat
+  686: elephant grass (china reed, miscanthus sinensis)
+  821: hop
+  681: green cut trough
+  721: grassland desert
+  117: sorghum
+  813: apricots
+  671: other farm crops
+  153: winter barley / buckwheat
+  755: strawberries
+  527: seed potatoes
+  535: summer kummel
+  658: hemp
+  150: emmer or einkorn (wintering)
+  831: strawberries
+  842: nuts (walnuts, hazelnuts,.
+  768: pumpkin
+  172: corn / beetle beans in separate rows
+  764: green cut trough / corn
+  540: spice fennel
+  631: forage beets (runkelburben, burgund kohlr
+  165: winter durum wheat (durum)
+  863: energy wood without robinie
+  661: other farm area
+  303: winter beets
+  861: multi-year nursery
+  812: cherries
+  638: vetchet-grain mix
+  538: medicinal plants
+  525: industrial potatoes
+  166: durum wheat (durum)
+  510: winter poppy
+  506: mustard
+  206: farm beans - grain mix
+  710: other grassland areas
+  689: leindotter
+  625: winterwicken
+  160: winter wheat / buckwheat
+  901: wine
+  149: emmer or einkorn (summer)
+  653: field vegetables without harvest
+  208: field beans / peas collection
+  513: early potatoes
+  820: plums
+  959: 20 year shutdown
+  860: one-year nursery schools
+  852: fruit in the foil tunnel
+  829: nectarines
+  960: forest environmental measures
+  818: table pears
+  144: winter rye / field vegetables
+  765: green cut rye / millet
+  759: quinoa
+  758: amaranth
+  690: oil radish
+  682: phacelia
+  125: winter barley / field vegetables
+  207: bitter lupines
+  203: sweet lupines
+  170: durum wheat / buckwheat
+  154: sudangras
+  152: emmer or einkorn (wintering) / field vegetables
+  151: emmer or einkorn (summer) / field vegetables
+  641: energiegra

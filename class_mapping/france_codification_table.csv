@@ -1,0 +1,350 @@
+Culture Code,Culture Label,Culture Group Code,Culture Group Label
+BTH,Soft winter wheat,1,Soft wheat
+BTP,Soft spring wheat,1,Soft wheat
+MID,Corn sweet,2,Grain corn and silage
+MIE,Corn silage,2,Grain corn and silage
+MIS,Corn,2,Grain corn and silage
+ORH,Winter barley,3,Barley
+ORP,Spring barley,3,Barley
+AVH,Winter oats,4,Other cereals
+AVP,Spring oats,4,Other cereals
+BDH,Winter hard wheat,4,Other cereals
+BDP,Hard spring wheat,4,Other cereals
+BDT,Durum spring wheat sown late (after 05/31),4,Other cereals
+CAG,Another cereal of another kind,4,Other cereals
+CGF,Other cereal of the genus Fagopyrum,4,Other cereals
+CGH,Other Phalaris-type cereal,4,Other cereals
+CGO,Other Sorghum-type cereal,4,Other cereals
+CGP,Other cereal of the genus Panicum,4,Other cereals
+CGS,Other Setaria-type cereal,4,Other cereals
+CHA,Other winter cereal of the genus Avena,4,Other cereals
+CHH,Other winter cereal of the Hordeum genus,4,Other cereals
+CHS,Other Secale winter cereal,4,Other cereals
+CHT,Other winter cereal of the genus Triticum,4,Other cereals
+CPA,Other Avena genus of spring cereal,4,Other cereals
+CPH,Other spring cereal of the genus Hordeum,4,Other cereals
+CPS,Other spring cereal of the genus Secale,4,Other cereals
+CPT,Other spring cereal of the genus Triticum,4,Other cereals
+CPZ,Other spring cereal of the genus Zea,4,Other cereals
+EPE,Spelled,4,Other cereals
+MCR,Cereal mix,4,Other cereals
+MLT,Millet,4,Other cereals
+SGH,Winter rye,4,Other cereals
+SGP,Spring rye,4,Other cereals
+SOG,Sorghum,4,Other cereals
+SRS,Buckwheat,4,Other cereals
+TTH,Winter triticale,4,Other cereals
+TTP,Spring triticale,4,Other cereals
+CZH,Winter rapeseed,5,Rapeseed
+CZP,Spring rapeseed,5,Rapeseed
+TRN,Sunflower,6,Sunflower
+ARA,Peanut,7,Other oilseeds
+LIH,Winter non-textile linen,7,Other oilseeds
+LIP,Spring non-textile linen,7,Other oilseeds
+MOL,Oilseed mix,7,Other oilseeds
+NVE,Summer shuttle,7,Other oilseeds
+NVH,Winter shuttle,7,Other oilseeds
+OAG,Other oilseeds of another kind,7,Other oilseeds
+OEH,Other Helianthus oilseed,7,Other oilseeds
+OEI,Eyelet,7,Other oilseeds
+OHN,Other winter oilseed species Brassica napus,7,Other oilseeds
+OHR,Other winter oilseed species Brassica rapa,7,Other oilseeds
+OPN,Other spring oilseed species Brassica napus,7,Other oilseeds
+OPR,Other spring oilseed species Brassica rapa,7,Other oilseeds
+SOJ,Soy,7,Other oilseeds
+FEV,Bean,8,Protein crops
+FVL,Faba bean sown before 31/05,8,Protein crops
+FVT,Faba bean sown late (after 05/31),8,Protein crops
+LDH,Winter sweet lupine,8,Protein crops
+LDP,Sweet spring lupine sown before 31/05,8,Protein crops
+LDT,Late spring sweet lupine (after 31/05),8,Protein crops
+MPC,Mix of protein crops (peas and / or lupine and / or faba beans) predominantly sown before 31/05 and cereals,8,Protein crops
+MPP,Protein blend (pea and / or lupine and / or faba bean),8,Protein crops
+MPT,Late sown protein crop mix (after 05/31),8,Protein crops
+PAG,Other protein crops of another kind,8,Protein crops
+PHI,Winter peas,8,Protein crops
+PPR,Spring peas sown before 31/05,8,Protein crops
+PPT,Late peas sown late (after 31/05),8,Protein crops
+CHV,Hemp,9,Fiber plants
+CSE,Hemp without compliant label,9,Fiber plants
+LIF,Flax fibers,9,Fiber plants
+J5M,Fallow 5 years or less,11,Frost (frozen surfaces without production)
+J6P,Fallow 6 years or more,11,Frost (frozen surfaces without production)
+J6S,Fallow land of 6 years or more declared as Area of ​​ecological interest,11,Frost (frozen surfaces without production)
+JNO,Black fallow,11,Frost (frozen surfaces without production)
+RIZ,Rice,14,Rice
+LEC,Cultivated lentil (non-fodder),15,Grain legumes
+PCH,Chickpea,15,Grain legumes
+BVF,Fodder beet,16,Feed
+CAF,Forage carrot,16,Feed
+CHF,Forage cabbage,16,Feed
+CPL,Forage composed of cereals and / or protein crops (in proportion <50%) and / or fodder legumes (in proportion <50%),16,Feed
+DTY,Cocksfoot 5 years old or less,16,Feed
+FAG,Other annual fodder of another kind,16,Feed
+FET,Fescue 5 years old or less,16,Feed
+FF5,Fava bean established for the 2015 harvest,16,Feed
+FF6,Forage faba bean established for the 2016 harvest,16,Feed
+FF7,Fava bean established for the 2017 harvest,16,Feed
+FF8,Forage faba bean established for the 2018 harvest,16,Feed
+FFO,Other fava bean,16,Feed
+FLO,Timothy 5 years old or less,16,Feed
+FSG,Another weed weed of another genus,16,Feed
+GAI,Bedstraw,16,Feed
+GES,Gesse,16,Feed
+GFP,Other pure fodder grass 5 years old or less,16,Feed
+JO5,Jarosse established for the 2015 harvest,16,Feed
+JO6,Jarosse established for the 2016 harvest,16,Feed
+JO7,Jarosse established for the 2017 harvest,16,Feed
+JO8,Jarosse established for the 2018 harvest,16,Feed
+JOD,Dehydrated Jarosse,16,Feed
+JOS,Other jarosse,16,Feed
+LEF,Forage lens,16,Feed
+LFH,Other winter forage lupine,16,Feed
+LFP,Other spring forage lupine,16,Feed
+LH5,Winter forage lupine established for the 2015 harvest,16,Feed
+LH6,Winter forage lupine established for the 2016 harvest,16,Feed
+LH7,Winter forage lupine established for the 2017 harvest,16,Feed
+LH8,Winter forage lupine established for the 2018 harvest,16,Feed
+LO7,Lotier established for the 2017 harvest,16,Feed
+LO8,Lotier established for the 2018 harvest,16,Feed
+LOT,Lotier,16,Feed
+LP5,Spring fodder lupine established for the 2015 harvest,16,Feed
+LP6,Spring fodder lupine established for the 2016 harvest,16,Feed
+LP7,Spring fodder lupine established for the 2017 harvest,16,Feed
+LP8,Spring fodder lupine established for the 2018 harvest,16,Feed
+LU5,Alfalfa planted for the 2015 harvest,16,Feed
+LU6,Alfalfa planted for the 2016 harvest,16,Feed
+LU7,Alfalfa planted for the 2017 harvest,16,Feed
+LU8,Alfalfa planted for the 2018 harvest,16,Feed
+LUD,Dehydrated alfalfa,16,Feed
+LUZ,Other alfalfa,16,Feed
+MC5,Mix of predominant forage legumes planted for the 2015 harvest and cereals,16,Feed
+MC6,Mix of predominant fodder legumes for sowing planted for the 2016 harvest and cereals,16,Feed
+MC7,Mix of predominant forage legumes planted for the 2017 harvest and cereals,16,Feed
+MC8,Mix of predominant fodder legumes planted for the 2018 harvest and cereals and oilseeds,16,Feed
+ME5,Mélilot established for the 2015 harvest,16,Feed
+ME6,Mélilot established for the 2016 harvest,16,Feed
+ME7,Mélilot planted for the 2017 harvest,16,Feed
+ME8,Mélilot established for the 2018 harvest,16,Feed
+MED,Dehydrated sweet clover,16,Feed
+MEL,Other sweet clover,16,Feed
+MH5,Mix of predominant fodder legumes planted for the 2015 harvest and herbaceous or fodder grasses,16,Feed
+MH6,Mix of predominant fodder legumes planted for the 2016 harvest and herbaceous or fodder grasses,16,Feed
+MH7,Mix of predominant fodder legumes sown for the 2017 harvest and herbaceous or fodder grasses,16,Feed
+MI7,Minette planted for the 2017 harvest,16,Feed
+MI8,Minette implanted for the 2018 harvest,16,Feed
+MIN,Kitten,16,Feed
+ML5,Mix of forage legumes planted for the 2015 harvest (between them),16,Feed
+ML6,Mix of forage legumes planted for the 2016 harvest (between them),16,Feed
+ML7,Mix of forage legumes planted for the 2017 harvest (between them),16,Feed
+ML8,Mix of forage legumes planted for the 2018 harvest (between them),16,Feed
+MLC,Mixture of predominant forage legumes and cereals and / or oilseeds,16,Feed
+MLD,Mix of dehydrated legumes (between them),16,Feed
+MLF,Mix of forage legumes (between them),16,Feed
+MLG,Mix of dominant legumes at planting and fodder grasses 5 years old or less,16,Feed
+MOH,Moha,16,Feed
+NVF,Forage Turnip,16,Feed
+PAT,Common bluegrass 5 years old or less,16,Feed
+PFH,Other winter feed pea,16,Feed
+PFP,Other spring feed pea,16,Feed
+PH5,Winter forage peas planted for the 2015 harvest,16,Feed
+PH6,Winter forage peas planted for the 2016 harvest,16,Feed
+PH7,Winter forage peas planted for the 2017 harvest,16,Feed
+PH8,Winter forage peas planted for the 2018 harvest,16,Feed
+PP5,Spring forage peas planted for the 2015 harvest,16,Feed
+PP6,Spring forage peas planted for the 2016 harvest,16,Feed
+PP7,Spring forage peas planted for the 2017 harvest,16,Feed
+PP8,Spring forage peas planted for the 2018 harvest,16,Feed
+RDF,Forage radish,16,Feed
+SA5,Sainfoin established for the 2015 harvest,16,Feed
+SA6,Sainfoin established for the 2016 harvest,16,Feed
+SA7,Sainfoin established for the 2017 harvest,16,Feed
+SA8,Sainfoin established for the 2018 harvest,16,Feed
+SAD,Dehydrated healthy,16,Feed
+SAI,Other sainfoin,16,Feed
+SE5,Serradelle established for the 2015 harvest,16,Feed
+SE6,Serradelle established for the 2016 harvest,16,Feed
+SE7,Serradelle established for the 2017 harvest,16,Feed
+SE8,Serradelle established for the 2018 harvest,16,Feed
+SED,Dehydrated Serradelle,16,Feed
+SER,Other serradelle,16,Feed
+TR5,Clover planted for the 2015 harvest,16,Feed
+TR6,Clover planted for the 2016 harvest,16,Feed
+TR7,Clover planted for the 2017 harvest,16,Feed
+TR8,Clover planted for the 2018 harvest,16,Feed
+TRD,Dehydrated clover,16,Feed
+TRE,Other clover,16,Feed
+VE5,Vetch planted for the 2015 harvest,16,Feed
+VE6,Vetch planted for the 2016 harvest,16,Feed
+VE7,Vetch planted for the 2017 harvest,16,Feed
+VE8,Vetch planted for the 2018 harvest,16,Feed
+VED,Dehydrated vetch,16,Feed
+VES,Other vetch,16,Feed
+XFE,X-Felium 5 years old or less,16,Feed
+BOP,Grazed wood,17,Summer pastures and moors
+SPH,Pastoral area - predominant grass and woody fodder resources present,17,Summer pastures and moors
+SPL,Pastoral area - predominant woody fodder resources,17,Summer pastures and moors
+PPH,Permanent meadow - predominant grass (woody forage resources absent or scarce),18,Permanent meadows
+PRL,Long rotation meadow (6 years or more),18,Permanent meadows
+PTR,Other temporary meadow of 5 years or less,19,Temporary meadows
+RGA,Ryegrass 5 years old or less,19,Temporary meadows
+AGR,Citrus,20,Orchards
+ANA,Pineapple,20,Orchards
+AVO,Lawyer,20,Orchards
+BCA,Creole banana (fruit and vegetable) - other,20,Orchards
+BCF,Creole banana (fruit and vegetable) - tenant farming,20,Orchards
+BCI,Creole banana (fruit and vegetable) - joint possession,20,Orchards
+BCP,Creole banana (fruit and vegetable) - property or direct use,20,Orchards
+BCR,Creole banana (fruit and vegetable) - land reform,20,Orchards
+BEA,Banana export - other,20,Orchards
+BEF,Banana export - farming,20,Orchards
+BEI,Banana export - joint ownership,20,Orchards
+BEP,Banana export - property or direct use,20,Orchards
+BER,Banana export - land reform,20,Orchards
+CAC,Coffee / Cocoa,20,Orchards
+CBT,Bigarreau cherry for transformation,20,Orchards
+PFR,Small red fruit,20,Orchards
+PRU,Ente plum for transformation,20,Orchards
+PVT,Pavie fishing for processing,20,Orchards
+PWT,Williams pear for transformation,20,Orchards
+VGD,Orchard (DOM),20,Orchards
+VRG,Orchard,20,Orchards
+RVI,Restructuring of the vineyard,21,Vines
+VRC,Vine: wine grapes,21,Vines
+VRN,Vine: wine grapes not in production,21,Vines
+VRT,Vine: table grapes,21,Vines
+CAB,Carob,22,Nuts
+CTG,Chestnut,22,Nuts
+NOS,Hazelnut,22,Nuts
+NOX,Nuts,22,Nuts
+PIS,Pistachio,22,Nuts
+OLI,Olive grove,23,Olive trees
+ANE,Dill,24,Other industrial crops
+ANG,Angelic,24,Other industrial crops
+ANI,Anise,24,Other industrial crops
+BAR,Burdock,24,Other industrial crops
+BAS,Basil,24,Other industrial crops
+BRH,"Borage, 5 years old or less",24,Other industrial crops
+BTN,Non-forage beet / Swiss chard,24,Other industrial crops
+CAV,Caraway,24,Other industrial crops
+CHR,Milk thistle,24,Other industrial crops
+CIB,Chive,24,Other industrial crops
+CML,Cameline,24,Other industrial crops
+CMM,Chamomile,24,Other industrial crops
+CRD,Coriander,24,Other industrial crops
+CRF,Chervil,24,Other industrial crops
+CUM,Cumin,24,Other industrial crops
+CUR,Turmeric,24,Other industrial crops
+EST,Tarragon,24,Other industrial crops
+FNO,Fennel,24,Other industrial crops
+FNU,Fenugreek,24,Other industrial crops
+HBL,Hop,24,Other industrial crops
+LAV,Lavender / Lavandin,24,Other industrial crops
+MAV,Mauve,24,Other industrial crops
+MLI,Lemon balm,24,Other industrial crops
+MLP,St. John's Wort,24,Other industrial crops
+MOT,Mustard,24,Other industrial crops
+MRJ,Marjoram / Oregano,24,Other industrial crops
+MTH,Mint,24,Other industrial crops
+ORT,Nettle,24,Other industrial crops
+OSE,Sorrel,24,Other industrial crops
+PAR,Aromatic plant (other than vanilla),24,Other industrial crops
+PMD,Medicinal plant,24,Other industrial crops
+PPA,"Another annual fragrant, aromatic and medicinal plant",24,Other industrial crops
+PPF,Perfume plant (other than geranium and vetiver),24,Other industrial crops
+PPP,"Another perennial, aromatic and medicinal plant",24,Other industrial crops
+PSL,Parsley,24,Other industrial crops
+PSN,Provence black psyllium,24,Other industrial crops
+PSY,Plantain psyllium,24,Other industrial crops
+ROM,Rosemary,24,Other industrial crops
+SGE,Sage,24,Other industrial crops
+SRI,Savory,24,Other industrial crops
+TAB,Tobacco,24,Other industrial crops
+THY,Thyme,24,Other industrial crops
+TOT,Tomato for processing,24,Other industrial crops
+VAL,Valerian,24,Other industrial crops
+VNB,Vanilla in the woods,24,Other industrial crops
+VNL,Vanilla,24,Other industrial crops
+VNV,Green vanilla,24,Other industrial crops
+YLA,Ylang ylang,24,Other industrial crops
+AIL,Garlic,25,Vegetables or flowers
+ART,Artichoke,25,Vegetables or flowers
+AUB,Eggplant,25,Vegetables or flowers
+BLT,Cornflower,25,Vegetables or flowers
+BUR,Creeping Bugle,25,Vegetables or flowers
+CAR,Carrot,25,Vegetables or flowers
+CCN,Cucumber / Pickle,25,Vegetables or flowers
+CCT,Zucchini / Pumpkin,25,Vegetables or flowers
+CEL,Celery,25,Vegetables or flowers
+CES,Chicory / Endive / Escarole,25,Vegetables or flowers
+CHU,Cabbage,25,Vegetables or flowers
+CMB,Butternut squash / Butternut,25,Vegetables or flowers
+CRA,Garden cress 5 years old or less,25,Vegetables or flowers
+CRN,Cornille,25,Vegetables or flowers
+CRS,Cress,25,Vegetables or flowers
+CSS,Greenhouse cultivation above ground,25,Vegetables or flowers
+DOL,Dolic,25,Vegetables or flowers
+EPI,Spinach,25,Vegetables or flowers
+FLA,Other annual vegetable or fruit,25,Vegetables or flowers
+FLP,Other perennial vegetable or fruit,25,Vegetables or flowers
+FRA,Strawberry,25,Vegetables or flowers
+GER,Geranium,25,Vegetables or flowers
+HAR,Bean / Flageolet,25,Vegetables or flowers
+HPC,Open field ornamental horticulture,25,Vegetables or flowers
+HSA,Ornamental horticulture under cover,25,Vegetables or flowers
+LBF,Lettuce / Batavia / Oak leaf,25,Vegetables or flowers
+LSA,Vegetable under cover,25,Vegetables or flowers
+MAC,Chewed up,25,Vegetables or flowers
+MLO,Melon,25,Vegetables or flowers
+MRG,Daisy,25,Vegetables or flowers
+NVT,Turnip,25,Vegetables or flowers
+OIG,Onion / Shallot,25,Vegetables or flowers
+PAN,Parsnip,25,Vegetables or flowers
+PAQ,Daisy,25,Vegetables or flowers
+PAS,Watermelon,25,Vegetables or flowers
+PMV,Primrose,25,Vegetables or flowers
+POR,Leek,25,Vegetables or flowers
+POT,Pumpkin / Potimarron,25,Vegetables or flowers
+PPO,Peas,25,Vegetables or flowers
+PSE,Thought,25,Vegetables or flowers
+PTC,Consumption potato,25,Vegetables or flowers
+PTF,Starch potato,25,Vegetables or flowers
+PVP,Pepper / Chili,25,Vegetables or flowers
+RDI,Radish,25,Vegetables or flowers
+ROQ,Rocket,25,Vegetables or flowers
+RUT,Rutabaga,25,Vegetables or flowers
+SFI,Salsify,25,Vegetables or flowers
+TOM,Tomato,25,Vegetables or flowers
+TOP,Jerusalem artichoke,25,Vegetables or flowers
+VER,Speedwell,25,Vegetables or flowers
+CSA,Sugar cane - other,26,Sugar cane
+CSF,Sugar cane - tenant farming,26,Sugar cane
+CSI,Sugar cane - joint ownership,26,Sugar cane
+CSP,Sugar cane - owned or vested directly,26,Sugar cane
+CSR,Sugar cane - land reform,26,Sugar cane
+ACA,Other crop not specified in the list (admissible),28,Various
+BFP,Allowable strip along a forest with production,28,Various
+BFS,Allowable strip along a forest without production,28,Various
+BOR,Field border,28,Various
+BRO,Bromine 5 years old or less,28,Various
+BTA,Buffer strip,28,Various
+CAE,Chestnut grove maintained by pigs or small ruminants,28,Various
+CEE,Oak grove maintained by pigs or small ruminants,28,Various
+CID,Cultures grown in inter-rows: 2 cultures each representing more than 25%,28,Various
+CIT,Crops grown in inter-rows: 3 cultures each representing more than 25%,28,Various
+CUA,Culture under gutted,28,Various
+MCT,Miscanthus,28,Various
+MPA,Other mixture of nitrogen-fixing plants,28,Various
+MRS,Salt marsh,28,Various
+NYG,Nyger,28,Various
+PCL,Phacelia 5 years old or less,28,Various
+PEP,Nursery,28,Various
+ROS,Reed bed,28,Various
+SBO,Wooded area on old agricultural land,28,Various
+SNA,Non-agricultural area not visible on the orthophotograph,28,Various
+SNE,Temporarily unexploited agricultural area,28,Various
+TBT,Tropical tuber,28,Various
+TCR,Short rotation coppice,28,Various
+TRU,Truffière (oak grove of mycorrhized plants),28,Various
+VET,Vetiver,28,Various
+ZZZ,Unknown culture,28,Various
