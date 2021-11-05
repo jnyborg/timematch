@@ -1,5 +1,5 @@
 # TimeMatch
-Official source code of [TimeMatch: Unsupervised Cross-region Adaptation by Temporal Shift Estimation](https://arxiv.org/abs/TODO).
+Official source code of [TimeMatch: Unsupervised Cross-region Adaptation by Temporal Shift Estimation](https://arxiv.org/abs/2111.02682) by Joachim Nyborg, [Charlotte Pelletier](https://sites.google.com/site/charpelletier/), [Sébastien Lefèvre](http://people.irisa.fr/Sebastien.Lefevre/), and Ira Assent.
 
 ## Requirements
 ### Python requirements
