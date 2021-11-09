@@ -38,7 +38,15 @@ All training scripts can be found in the `scripts` directory.
 
 
 ## Reference
-TODO
+If you find TimeMatch and the code useful, please consider citing our paper using the following BibTeX entry.
+```
+@article{nyborg2021timematch,
+  title={TimeMatch: Unsupervised Cross-Region Adaptation by Temporal Shift Estimation},   
+  author={Joachim Nyborg and Charlotte Pelletier and Sébastien Lefèvre and Ira Assent},
+  year={2021},
+  journal={arXiv preprint arXiv:2111.02682}
+}
+```
 
 ## Credits
 - The implementation of PSE+LTAE is based on [the official implementation](https://github.com/VSainteuf/lightweight-temporal-attention-pytorch)
