@@ -68,6 +68,25 @@ class RandomSampleTimeSteps(object):
 
         return sample
 
+class RandomTemporalShift(object):
+    """Randomly shift date positions
+
+    Args:
+        max_shift (int): Maximum possible temporal shift
+    """
+
+    def __init__(self, max_shift=60, p=0.5):
+        self.max_shift = max_shift
+        self.p = p
+
+    def __call__(self, sample):
+        if random.random() < self.p:
+            shift = random.randint(-self.max_shift, self.max_shift)
+            sample['positions'] = sample['positions'] + shift
+
+
+        return sample
+
 
 class Normalize(object):
     """Normalize by rescaling pixels to [0, 1]
