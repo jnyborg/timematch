@@ -294,8 +294,10 @@ if __name__ == '__main__':
     parser.add_argument('--with_extra', default=False, type=bool_flag, help='whether to input extra geometric features to the PSE')
     parser.add_argument('--tensorboard_log_dir', default='runs')
     parser.add_argument('--train_on_target', default=False, action='store_true', help='supervised training on target for upper bound comparison')
-    parser.add_argument('--with_shift_aug', default=False, action='store_true', help='whether to apply random temporal shift augmentation')
-    parser.add_argument('--shift_aug_p', default=0.5, type=float, help='probability to apply temporal shift augmentation')
+
+    # TODO 
+    parser.add_argument('--with_shift_aug', default=True, action='store_true', help='whether to apply random temporal shift augmentation')
+    parser.add_argument('--shift_aug_p', default=1.0, type=float, help='probability to apply temporal shift augmentation')
     parser.add_argument('--max_shift_aug', default=60, type=int, help='highest shift to apply for temporal shift augmentation')
 
     # Specific parameters for each training method
@@ -339,7 +341,7 @@ if __name__ == '__main__':
     alda.add_argument('--epochs', default=20, type=int, help='Number of epochs per fold')
     alda.add_argument('--lr', default=0.001, type=float, help='Learning rate')
     alda.add_argument("--trade_off", default=1.0, type=float, help='weight of adversarial loss')
-    alda.add_argument("--pseudo_threshold", default=0.9, type=float, help='confidence threshold for assigning pseudo labels')
+    alda.add_argument("--pseudo_threshold", default=0.7, type=float, help='confidence threshold for assigning pseudo labels')
 
 
     # TimeMatch

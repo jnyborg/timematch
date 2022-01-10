@@ -12,7 +12,7 @@ from competitors.mmd.dan import MultipleKernelMaximumMeanDiscrepancy
 from competitors.mmd.kernels import GaussianKernel
 from dataset import PixelSetData
 from evaluation import validation
-from transforms import Normalize, RandomSamplePixels, RandomSampleTimeSteps, ToTensor
+from transforms import Normalize, RandomSamplePixels, RandomSampleTimeSteps, ToTensor, RandomTemporalShift, Identity
 from utils.train_utils import AverageMeter, cat_samples, cycle, to_cuda
 from utils.metrics import accuracy
 
@@ -126,6 +126,7 @@ def get_data_loaders(splits, config):
     train_transform = transforms.Compose([
             RandomSamplePixels(config.num_pixels),
             RandomSampleTimeSteps(config.seq_length),
+            RandomTemporalShift(max_shift=config.max_shift_aug, p=config.shift_aug_p) if config.with_shift_aug else Identity(),
             Normalize(),
             ToTensor(),
     ])
