@@ -69,8 +69,8 @@ def train_timematch(student, config, writer, val_loader, device, best_model_path
         # Use estimated shift to get initial pseudo labels
         pseudo_softmaxes = get_pseudo_labels(teacher, target_loader_no_aug, device, target_to_source_shift, n=None)
         all_pseudo_labels = torch.max(pseudo_softmaxes, dim=1)[1]
-        source_to_target_shift = 0
 
+    source_to_target_shift = 0
     for epoch in range(config.epochs):
         progress_bar = tqdm(range(steps_per_epoch), desc=f"TimeMatch Epoch {epoch + 1}/{config.epochs}")
         loss_meter = AverageMeter()
