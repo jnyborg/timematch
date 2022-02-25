@@ -1,6 +1,9 @@
 # TimeMatch
 Official source code of [TimeMatch: Unsupervised Cross-region Adaptation by Temporal Shift Estimation](https://arxiv.org/abs/2111.02682) by Joachim Nyborg, [Charlotte Pelletier](https://sites.google.com/site/charpelletier/), [Sébastien Lefèvre](http://people.irisa.fr/Sebastien.Lefevre/), and Ira Assent.
 
+## Abstract
+_The recent developments of deep learning models that capture complex temporal patterns of crop phenology have greatly advanced crop classification from Satellite Image Time Series (SITS). However, when applied to target regions spatially different from the training region, these models perform poorly without any target labels due to the temporal shift of crop phenology between regions. Although various unsupervised domain adaptation techniques have been proposed in recent years, no method explicitly learns the temporal shift of SITS and thus provide only limited benefits for crop classification. To address this, we propose TimeMatch, which explicitly accounts for the temporal shift for improved SITS-based domain adaptation. In TimeMatch, we first estimate the temporal shift from the target to the source region using the predictions of a source-trained model. Then, we re-train the model for the target region by an iterative algorithm where the estimated shift is used to generate accurate target pseudo-labels. Additionally, we introduce an open-access dataset for cross-region adaptation from SITS in four different regions in Europe. On our dataset, we demonstrate that TimeMatch outperforms all competing methods by 11% in average F1-score across five different adaptation scenarios, setting a new state-of-the-artin cross-region adaptation._
+
 ## Requirements
 ### Python requirements
 - Python 3.9.4, PyTorch 1.8.1, and more in `environment.yml`.
