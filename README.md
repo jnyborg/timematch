@@ -6,11 +6,11 @@ Official source code of [TimeMatch: Unsupervised Cross-region Adaptation by Temp
 - Python 3.9.4, PyTorch 1.8.1, and more in `environment.yml`.
 
 ### TimeMatch dataset download
-The dataset can be freely downloaded from [Zenodo](https://doi.org/10.5281/zenodo.5636422).
+The [dataset](https://doi.org/10.5281/zenodo.5636422) can be freely downloaded from Zenodo.
 The extracted size is about 78 GB.
 
 ### Pre-trained models and full results
-Pre-trained models and results can also be downloaded from [Zenodo](https://doi.org/10.5281/zenodo.5636422)
+[Pre-trained models and results](https://doi.org/10.5281/zenodo.5636422) can also be downloaded from Zenodo
 
 
 ## Usage
