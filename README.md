@@ -41,13 +41,16 @@ All training scripts can be found in the `scripts` directory.
 
 
 ## Reference
-If you find TimeMatch and the code useful, please consider citing our paper using the following BibTeX entry.
+If you find TimeMatch or the code useful, please consider citing our paper using the following BibTeX entry.
 ```
-@article{nyborg2021timematch,
-  title={TimeMatch: Unsupervised Cross-Region Adaptation by Temporal Shift Estimation},   
-  author={Joachim Nyborg and Charlotte Pelletier and Sébastien Lefèvre and Ira Assent},
-  year={2021},
-  journal={arXiv preprint arXiv:2111.02682}
+@article{nyborg2022timematch,
+  title={TimeMatch: Unsupervised cross-region adaptation by temporal shift estimation},
+  author={Nyborg, Joachim and Pelletier, Charlotte and Lef{\`e}vre, S{\'e}bastien and Assent, Ira},
+  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume={188},
+  pages={301--313},
+  year={2022},
+  publisher={Elsevier}
 }
 ```
 
