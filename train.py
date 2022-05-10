@@ -17,11 +17,12 @@ from tqdm import tqdm
 from competitors.dann.dann import train_dann
 from competitors.jumbot.jumbot import train_jumbot
 from competitors.mmd.train_mmd import train_mmd
+from competitors.alda.train_alda import train_alda
 from dataset import PixelSetData, create_evaluation_loaders, create_train_loader
 from evaluation import evaluation, validation
 from models.stclassifier import PseLTae, PseTae, PseTempCNN, PseGru
 from timematch import train_timematch
-from transforms import Normalize, RandomSamplePixels, RandomSampleTimeSteps, ToTensor
+from transforms import Normalize, RandomSamplePixels, RandomSampleTimeSteps, ToTensor, RandomTemporalShift, Identity
 from utils import label_utils
 from utils.focal_loss import FocalLoss
 from utils.metrics import overall_classification_report
@@ -96,6 +97,8 @@ def main(config):
                 train_mmd(model, config, writer, val_loader, device, best_model_path, fold_num, splits)
             elif config.method == 'jumbot':
                 train_jumbot(model, config, writer, val_loader, device, best_model_path, fold_num, splits)
+            elif config.method == 'alda':
+                train_alda(model, config, writer, val_loader, device, best_model_path, fold_num, splits)
             else:
                 train_supervised(model, config, writer, splits, val_loader, device, best_model_path)
 
@@ -130,6 +133,7 @@ def train_supervised(model, config, writer, splits, val_loader, device, best_mod
     train_transform = transforms.Compose([
         RandomSamplePixels(config.num_pixels),
         RandomSampleTimeSteps(config.seq_length),
+        RandomTemporalShift(max_shift=config.max_shift_aug, p=config.shift_aug_p) if config.with_shift_aug else Identity(),
         Normalize(),
         ToTensor(),
     ])
@@ -291,6 +295,11 @@ if __name__ == '__main__':
     parser.add_argument('--tensorboard_log_dir', default='runs')
     parser.add_argument('--train_on_target', default=False, action='store_true', help='supervised training on target for upper bound comparison')
 
+    # TODO 
+    parser.add_argument('--with_shift_aug', default=True, action='store_true', help='whether to apply random temporal shift augmentation')
+    parser.add_argument('--shift_aug_p', default=1.0, type=float, help='probability to apply temporal shift augmentation')
+    parser.add_argument('--max_shift_aug', default=60, type=int, help='highest shift to apply for temporal shift augmentation')
+
     # Specific parameters for each training method
     subparsers = parser.add_subparsers(dest='method')
 
@@ -313,6 +322,7 @@ if __name__ == '__main__':
     mmd.add_argument("--trade_off", default=1.0, type=float, help='weight of adversarial loss')
     mmd.add_argument('--lr', default=0.001, type=float, help='Learning rate')
 
+    # JUMBOT
     jumbot = subparsers.add_parser('jumbot')
     jumbot.add_argument('--weights', type=str, help='path to source trained model weights')
     jumbot.add_argument("--steps_per_epoch", type=int, default=500, help='n steps per epoch')
@@ -323,6 +333,15 @@ if __name__ == '__main__':
     jumbot.add_argument('--epsilon', default=0.01, type=float, help='marginal coefficient')
     jumbot.add_argument('--tau', default=0.5, type=float, help='entropic regularization')
 
+    # ALDA
+    alda = subparsers.add_parser('alda')
+    alda.add_argument('--use_default_optim', type=bool_flag, default=True, help="whether to use default optimizer")
+    alda.add_argument('--weights', type=str, help='path to source trained model weights')
+    alda.add_argument("--steps_per_epoch", type=int, default=500, help='n steps per epoch')
+    alda.add_argument('--epochs', default=20, type=int, help='Number of epochs per fold')
+    alda.add_argument('--lr', default=0.001, type=float, help='Learning rate')
+    alda.add_argument("--trade_off", default=1.0, type=float, help='weight of adversarial loss')
+    alda.add_argument("--pseudo_threshold", default=0.7, type=float, help='confidence threshold for assigning pseudo labels')
 
 
     # TimeMatch

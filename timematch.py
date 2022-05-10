@@ -17,6 +17,8 @@ from transforms import (
     RandomSamplePixels,
     RandomSampleTimeSteps,
     ToTensor,
+    RandomTemporalShift,
+    Identity,
 )
 from utils.focal_loss import FocalLoss
 from utils.train_utils import AverageMeter, to_cuda, cycle
@@ -64,11 +66,11 @@ def train_timematch(student, config, writer, val_loader, device, best_model_path
         else:
             max_shift = 0
 
-    # Use estimated shift to get initial pseudo labels
-    pseudo_softmaxes = get_pseudo_labels(teacher, target_loader_no_aug, device, target_to_source_shift, n=None)
-    all_pseudo_labels = torch.max(pseudo_softmaxes, dim=1)[1]
-    source_to_target_shift = 0
+        # Use estimated shift to get initial pseudo labels
+        pseudo_softmaxes = get_pseudo_labels(teacher, target_loader_no_aug, device, target_to_source_shift, n=None)
+        all_pseudo_labels = torch.max(pseudo_softmaxes, dim=1)[1]
 
+    source_to_target_shift = 0
     for epoch in range(config.epochs):
         progress_bar = tqdm(range(steps_per_epoch), desc=f"TimeMatch Epoch {epoch + 1}/{config.epochs}")
         loss_meter = AverageMeter()
@@ -196,6 +198,7 @@ def get_data_loaders(splits, config, balance_source=True):
     strong_aug = transforms.Compose([
             RandomSamplePixels(config.num_pixels),
             RandomSampleTimeSteps(config.seq_length),
+            RandomTemporalShift(max_shift=config.max_shift_aug, p=config.shift_aug_p) if config.with_shift_aug else Identity(),
             Normalize(),
             ToTensor(),
     ])

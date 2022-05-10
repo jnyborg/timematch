@@ -21,11 +21,10 @@ def cat_samples(samples):
         'pixels': torch.cat([x['pixels'] for x in samples]),
         'valid_pixels': torch.cat([x['valid_pixels'] for x in samples]),
         'positions': torch.cat([x['positions'] for x in samples]),
-        'extra': None,
         'label': torch.cat([x['label'] for x in samples]),
     }
     if 'extra' in samples[0]:
-        out['extra'] = torch.cat([x['extra'] for x in samples]),
+        out['extra'] = torch.cat([x['extra'] for x in samples])
     return out
 
 
